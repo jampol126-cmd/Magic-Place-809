@@ -1,0 +1,12 @@
+# Robots.txt para Magic Place 809
+# https://apartamento-santa-marta-809.vercel.app
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://apartamento-santa-marta-809.vercel.app/sitemap.xml
+
+# Archivos no indexables
+Disallow: /api/
+Disallow: /*?
