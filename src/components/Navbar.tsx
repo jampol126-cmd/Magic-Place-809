@@ -136,14 +136,14 @@ export function Navbar() {
                     ))}
                   </nav>
                   <a
-                    href="https://wa.me/573160489297"
+                    href="https://www.airbnb.com.co/rooms/1528338194549420533"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4"
                   >
                     <Button className="w-full bg-ocean-500 hover:bg-ocean-600 text-white gap-2">
                       <Phone className="w-4 h-4" />
-                      {t('nav.contact')} WhatsApp
+                      {t('nav.contact')} Airbnb
                     </Button>
                   </a>
                 </div>

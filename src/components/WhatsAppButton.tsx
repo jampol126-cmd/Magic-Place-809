@@ -1,6 +1,8 @@
-import { MessageCircle } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+
+const AIRBNB_LINK = "https://www.airbnb.com.co/rooms/1528338194549420533";
 
 export function WhatsAppButton() {
   const { t } = useTranslation();
@@ -17,13 +19,13 @@ export function WhatsAppButton() {
 
   return (
     <a
-      href="https://wa.me/573160489297"
+      href={AIRBNB_LINK}
       target="_blank"
       rel="noopener noreferrer"
       className={`fixed bottom-6 right-6 z-50 transition-all duration-300 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'
       }`}
-      aria-label="WhatsApp"
+      aria-label="Airbnb"
     >
       <div className="group relative">
         {/* Tooltip */}
@@ -33,12 +35,12 @@ export function WhatsAppButton() {
         </div>
 
         {/* Button */}
-        <div className="w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all hover:scale-110">
-          <MessageCircle className="w-7 h-7 text-white fill-white" />
+        <div className="w-14 h-14 bg-[#FF5A5F] hover:bg-[#FF7A7F] rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all hover:scale-110">
+          <ExternalLink className="w-7 h-7 text-white" />
         </div>
 
         {/* Pulse animation */}
-        <div className="absolute inset-0 bg-green-500 rounded-full animate-ping opacity-20" />
+        <div className="absolute inset-0 bg-[#FF5A5F] rounded-full animate-ping opacity-20" />
       </div>
     </a>
   );

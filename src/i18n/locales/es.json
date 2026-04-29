@@ -281,8 +281,8 @@
     "pt": "Português"
   },
   "whatsapp": {
-    "tooltip": "¿Tienes dudas? Escríbenos",
-    "message": "Hola! Me interesa reservar Magic Place 809.\n\nFechas:\nEntrada: {{checkIn}}\nSalida: {{checkOut}}\nHuéspedes: {{guests}}\n\n¿Está disponible?"
+    "tooltip": "Reservar en Airbnb",
+    "message": "Hola! Me interesa reservar Magic Place 809 en Airbnb"
   },
   "common": {
     "close": "Cerrar",
