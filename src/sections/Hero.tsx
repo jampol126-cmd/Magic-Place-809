@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { MapPin, Calendar, Users, Star, ChevronDown, Play, Pause } from 'lucide-react';
+import { MapPin, Calendar, Users, Star, ChevronDown, Play, Pause, ExternalLink } from 'lucide-react';
 
 export function Hero() {
   const { t } = useTranslation();
@@ -121,7 +121,7 @@ export function Hero() {
           </div>
 
           {/* CTA Buttons */}
-          <div className="fade-in-up visible delay-500 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="fade-in-up visible delay-500 flex flex-col sm:flex-row flex-wrap items-center justify-center gap-4">
             <a
               href="https://wa.me/573160489297"
               target="_blank"
@@ -132,6 +132,20 @@ export function Hero() {
                 className="bg-ocean-500 hover:bg-ocean-600 text-white px-8 py-6 text-lg font-semibold shadow-ocean transition-all hover:scale-105"
               >
                 {t('hero.cta.bookNow')}
+              </Button>
+            </a>
+            <a
+              href="https://www.airbnb.com.co/rooms/1528338194549420533"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-2 border-white/80 text-white bg-white/10 backdrop-blur-sm hover:bg-white/20 hover:border-white px-8 py-6 text-lg font-semibold shadow-lg"
+              >
+                <ExternalLink className="w-5 h-5 mr-2" />
+                Ver en Airbnb
               </Button>
             </a>
             <Button

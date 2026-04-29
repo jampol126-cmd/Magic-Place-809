@@ -4,8 +4,8 @@ import {
   Instagram, 
   Phone, 
   MapPin, 
-  Star,
-  ChevronRight
+  ChevronRight,
+  ExternalLink
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -77,16 +77,15 @@ export function Footer() {
                 </Button>
               </a>
               <a
-                href="https://www.airbnb.com"
+                href="https://www.airbnb.com.co/rooms/1528338194549420533"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button
                   size="lg"
-                  variant="outline"
-                  className="border-white/30 text-white hover:bg-white/10"
+                  className="bg-white/10 border border-white/30 text-white hover:bg-white/20 hover:text-white"
                 >
-                  <Star className="w-5 h-5 mr-2" />
+                  <ExternalLink className="w-5 h-5 mr-2" />
                   {t('footer.buttons.airbnb')}
                 </Button>
               </a>

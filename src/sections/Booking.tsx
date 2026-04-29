@@ -240,7 +240,7 @@ export function Booking() {
                   {t('booking.buttons.whatsapp')}
                 </Button>
                 <a
-                  href="https://www.airbnb.com"
+                  href="https://www.airbnb.com.co/rooms/1528338194549420533"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full"
