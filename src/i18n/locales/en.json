@@ -1,0 +1,292 @@
+{
+  "nav": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "amenities": "Amenities",
+    "location": "Location",
+    "booking": "Book Now",
+    "blog": "Blog",
+    "contact": "Contact",
+    "apartment": "The Apartment"
+  },
+  "apartment": {
+    "subtitle": "Discover Your Space",
+    "title": "The Apartment",
+    "description": "A space designed for your comfort, with everything you need for an unforgettable stay in Santa Marta.",
+    "capacity": {
+      "title": "Maximum Capacity",
+      "subtitle": "Ideal for couples and small groups",
+      "people": "people",
+      "bed": "Queen Bed",
+      "sofaSingle": "Single sofa bed",
+      "sofaDouble": "Double sofa bed"
+    },
+    "features": {
+      "floor": {
+        "title": "8th Floor",
+        "description": "Located on the eighth floor of Salinas del Mar building"
+      },
+      "balcony": {
+        "title": "Balcony with View",
+        "description": "Panoramic view of the pool and Caribbean Sea"
+      },
+      "bedroom": {
+        "title": "1 Bedroom",
+        "description": "Queen bed, single sofa bed, TV with Netflix and air conditioning"
+      },
+      "living": {
+        "title": "Loft-Style Living Room",
+        "description": "Double sofa bed, air conditioning and sound system"
+      },
+      "kitchen": {
+        "title": "Equipped Kitchen",
+        "description": "Complete kitchen with all the utensils you need"
+      },
+      "bathroom": {
+        "title": "1 Bathroom",
+        "description": "Modern bathroom with shower and all amenities"
+      },
+      "laundry": {
+        "title": "Washing Machine",
+        "description": "Washer and laundry area for your convenience"
+      },
+      "wifi": {
+        "title": "Free WiFi",
+        "description": "High-speed connection throughout the apartment"
+      }
+    },
+    "ideal": {
+      "title": "Ideal for Couples",
+      "description": "Perfect for romantic getaways or family vacations. Cozy space with all the amenities.",
+      "badge": "Perfect for 2-5 people"
+    }
+  },
+  "hero": {
+    "badge": "Premium Apartment in Santa Marta",
+    "title": "Magic Place 809",
+    "subtitle": "Premium Apartment Santa Marta",
+    "features": {
+      "oceanView": "Ocean View",
+      "pool": "Infinity Pool",
+      "gym": "Equipped Gym"
+    },
+    "location": "5 min from Simón Bolívar Airport | Bello Horizonte",
+    "cta": {
+      "bookNow": "Book Now",
+      "viewGallery": "View Gallery"
+    },
+    "bestPrice": "Best Price Guaranteed - Direct Booking"
+  },
+  "gallery": {
+    "subtitle": "Discover the Space",
+    "title": "Magic Place 809 Gallery",
+    "description": "Discover every corner of our premium apartment with ocean view, infinity pool and all the amenities you need for a perfect stay.",
+    "videoCaption": "Full tour of the apartment and its facilities",
+    "categories": {
+      "exterior": "Exterior",
+      "pool": "Pool",
+      "kitchen": "Kitchen",
+      "bedroom": "Bedroom",
+      "gym": "Gym",
+      "terrace": "Terrace",
+      "beach": "Beach",
+      "interior": "Interior",
+      "view": "View",
+      "lobby": "Lobby"
+    }
+  },
+  "amenities": {
+    "subtitle": "All Included",
+    "title": "Premium Amenities",
+    "description": "Everything you need for a comfortable and relaxing stay. Enjoy first-class facilities with ocean view.",
+    "items": {
+      "wifi": {
+        "title": "High-Speed WiFi",
+        "description": "100MB symmetric connection ideal for remote work and streaming"
+      },
+      "pool": {
+        "title": "Infinity Pool",
+        "description": "Rooftop pool with panoramic view of the Caribbean Sea"
+      },
+      "gym": {
+        "title": "Equipped Gym",
+        "description": "Complete gym with view of the pool and ocean"
+      },
+      "ac": {
+        "title": "Air Conditioning",
+        "description": "Split AC in all rooms for your comfort"
+      },
+      "kitchen": {
+        "title": "Full Kitchen",
+        "description": "Kitchen equipped with fridge, oven, coffee maker and utensils"
+      },
+      "parking": {
+        "title": "Parking",
+        "description": "Private parking available for guests"
+      },
+      "security": {
+        "title": "24/7 Security",
+        "description": "Concierge and surveillance 24 hours a day"
+      },
+      "tv": {
+        "title": "Smart TV",
+        "description": "Smart TV with Netflix and streaming apps"
+      }
+    },
+    "premium": {
+      "title": "Premium Experience",
+      "subtitle": "Everything included for maximum comfort",
+      "equipped": "Equipped",
+      "security": "Security",
+      "rating": "Rating"
+    }
+  },
+  "location": {
+    "subtitle": "Strategic Location",
+    "title": "Bello Horizonte",
+    "description": "The most exclusive area of Santa Marta. Just 5 minutes from the airport and close to everything you need.",
+    "address": {
+      "building": "Salinas del Mar Building",
+      "city": "Bello Horizonte, Santa Marta, Magdalena, Colombia",
+      "badge": "5 min from Airport"
+    },
+    "nearby": {
+      "title": "Nearby Places",
+      "airport": {
+        "name": "Simón Bolívar Airport",
+        "description": "Domestic and international flights",
+        "distance": "5 min"
+      },
+      "beach": {
+        "name": "Salguero Beach",
+        "description": "Walking distance from the building",
+        "distance": "3 min"
+      },
+      "mall": {
+        "name": "Zazue Plaza",
+        "description": "Shopping mall and restaurants",
+        "distance": "8 min"
+      },
+      "tayrona": {
+        "name": "Tayrona Park",
+        "description": "One of the most beautiful parks",
+        "distance": "40 min"
+      }
+    },
+    "transport": {
+      "title": "How to Get There?",
+      "taxi": "From airport: Official taxi $15,000-20,000 COP",
+      "uber": "Uber/Didi: $12,000-15,000 COP (5 min)",
+      "address": "Address: Salinas del Mar Building, Bello Horizonte"
+    }
+  },
+  "booking": {
+    "subtitle": "Direct Booking",
+    "title": "Book Your Stay",
+    "description": "Book directly and save up to 15% on commissions. Personalized attention with Mónica.",
+    "bestPrice": "Best Price Guaranteed - Direct Booking",
+    "form": {
+      "checkIn": "Check-in Date",
+      "checkOut": "Check-out Date",
+      "guests": "Guests",
+      "selectDate": "Select date",
+      "guest": "guest",
+      "guests_plural": "guests"
+    },
+    "buttons": {
+      "whatsapp": "Book via WhatsApp",
+      "airbnb": "View on Airbnb"
+    },
+    "benefits": {
+      "save": "Save 10-15%",
+      "personalized": "Personalized attention",
+      "flexible": "Flexible cancellation"
+    },
+    "contact": "Prefer to call? Contact",
+    "monica": "Mónica",
+    "phone": "at +57 316 0489297"
+  },
+  "blog": {
+    "subtitle": "Blog & Guides",
+    "title": "Travel Tips",
+    "description": "Local guides, travel tips and everything you need to know to make the most of your stay in Santa Marta.",
+    "readMore": "Read more",
+    "readTime": "min read",
+    "categories": {
+      "guide": "Guide",
+      "tips": "Tips",
+      "location": "Location",
+      "beaches": "Beaches",
+      "activities": "Activities"
+    },
+    "articles": {
+      "article1": {
+        "title": "Apartments in Santa Marta: Definitive Guide to Staying in Bello Horizonte 2024",
+        "excerpt": "Discover why Bello Horizonte is the preferred area for experienced travelers. Complete guide with prices, features and tips."
+      },
+      "article2": {
+        "title": "Booking Airbnb Santa Marta vs Direct: 5 Reasons to Choose Magic Place 809",
+        "excerpt": "Save up to 15% by booking direct. Learn the 5 reasons why direct booking is better than Airbnb."
+      },
+      "article3": {
+        "title": "Santa Marta Airport: Where to Stay Less Than 10 Minutes Away",
+        "excerpt": "Arriving late or have an early flight? Discover why Bello Horizonte is the best option near the airport."
+      },
+      "article4": {
+        "title": "Salguero Beach Santa Marta: The Best Area to Rent an Apartment",
+        "excerpt": "The locals' favorite beach. Calm waters, fine sand and oceanfront apartments. Learn why it's the best area."
+      },
+      "article5": {
+        "title": "10 Things to Do Near Magic Place 809 in Bello Horizonte",
+        "excerpt": "From beach sunrises to gourmet restaurants. 10 must-do plans near your apartment."
+      },
+      "article6": {
+        "title": "Furnished Apartments Santa Marta: Everything You Need to Know Before Renting",
+        "excerpt": "Complete guide for digital nomads and long stays. Contracts, prices and safe areas in Santa Marta."
+      }
+    },
+    "cta": {
+      "title": "Ready to book?",
+      "description": "Contact Mónica directly to get the best guaranteed price",
+      "button": "Contact via WhatsApp"
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "Ready to experience Magic Place?",
+      "description": "Book directly and get the best guaranteed price"
+    },
+    "buttons": {
+      "whatsapp": "WhatsApp",
+      "airbnb": "View on Airbnb"
+    },
+    "description": "Premium apartment in Bello Horizonte, Santa Marta. Ocean view, infinity pool, equipped gym and all amenities for an unforgettable stay.",
+    "contact": {
+      "label": "Contact Mónica",
+      "locationLabel": "Location"
+    },
+    "navigation": "Navigation",
+    "information": "Information",
+    "links": {
+      "cancellation": "Cancellation Policy",
+      "terms": "Terms & Conditions",
+      "faq": "FAQ"
+    },
+    "copyright": "© {{year}} Magic Place 809. All rights reserved."
+  },
+  "language": {
+    "title": "Language",
+    "es": "Español",
+    "en": "English",
+    "pt": "Português"
+  },
+  "whatsapp": {
+    "tooltip": "Have questions? Write to us",
+    "message": "Hello! I'm interested in booking Magic Place 809.\n\nDates:\nCheck-in: {{checkIn}}\nCheck-out: {{checkOut}}\nGuests: {{guests}}\n\nIs it available?"
+  },
+  "common": {
+    "close": "Close",
+    "loading": "Loading...",
+    "scrollDown": "Scroll down"
+  }
+}

@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    /* Magic Place 809 Color Palette */
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 189 91% 37%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 38 92% 50%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 189 91% 37%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 189 91% 37%;
+    --radius: 0.625rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 189 91% 37%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 189 91% 37%;
+    
+    /* Custom Colors */
+    --ocean: #0891B2;
+    --mustard: #F59E0B;
+    --slate-dark: #1E293B;
+    --slate-medium: #64748B;
+    --slate-light: #F8FAFC;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer utilities {
+  /* Fade In Up Animation */
+  .fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Stagger delays */
+  .delay-100 { transition-delay: 100ms; }
+  .delay-200 { transition-delay: 200ms; }
+  .delay-300 { transition-delay: 300ms; }
+  .delay-400 { transition-delay: 400ms; }
+  .delay-500 { transition-delay: 500ms; }
+  
+  /* Glass effect */
+  .glass {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  
+  /* Text gradient */
+  .text-gradient {
+    background: linear-gradient(135deg, var(--ocean) 0%, var(--mustard) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Shadow utilities */
+  .shadow-ocean {
+    box-shadow: 0 10px 40px -10px rgba(8, 145, 178, 0.3);
+  }
+  
+  .shadow-mustard {
+    box-shadow: 0 10px 40px -10px rgba(245, 158, 11, 0.3);
+  }
+}

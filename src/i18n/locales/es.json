@@ -1,0 +1,292 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "gallery": "Galería",
+    "amenities": "Amenities",
+    "location": "Ubicación",
+    "booking": "Reservar",
+    "blog": "Blog",
+    "contact": "Contactar",
+    "apartment": "El Apartamento"
+  },
+  "apartment": {
+    "subtitle": "Conoce tu Espacio",
+    "title": "El Apartamento",
+    "description": "Un espacio diseñado para tu confort, con todo lo que necesitas para una estadía inolvidable en Santa Marta.",
+    "capacity": {
+      "title": "Capacidad Máxima",
+      "subtitle": "Ideal para parejas y grupos pequeños",
+      "people": "personas",
+      "bed": "Cama Queen",
+      "sofaSingle": "Sofá cama sencillo",
+      "sofaDouble": "Sofá cama doble"
+    },
+    "features": {
+      "floor": {
+        "title": "Piso 8",
+        "description": "Ubicado en el octavo piso del edificio Salinas del Mar"
+      },
+      "balcony": {
+        "title": "Balcón con Vista",
+        "description": "Vista panorámica a la piscina y al mar Caribe"
+      },
+      "bedroom": {
+        "title": "1 Habitación",
+        "description": "Cama Queen, sofá cama sencillo, TV con Netflix y aire acondicionado"
+      },
+      "living": {
+        "title": "Sala Tipo Loft",
+        "description": "Sofá cama doble, aire acondicionado y sistema de sonido"
+      },
+      "kitchen": {
+        "title": "Cocina Equipada",
+        "description": "Cocina completa con todos los utensilios que necesitas"
+      },
+      "bathroom": {
+        "title": "1 Baño",
+        "description": "Baño moderno con ducha y todas las comodidades"
+      },
+      "laundry": {
+        "title": "Lavadora",
+        "description": "Lavadora y zona de ropas para tu conveniencia"
+      },
+      "wifi": {
+        "title": "WiFi Gratis",
+        "description": "Conexión de alta velocidad en todo el apartamento"
+      }
+    },
+    "ideal": {
+      "title": "Ideal para Parejas",
+      "description": "Perfecto para escapadas románticas o vacaciones en familia. Espacio acogedor con todas las comodidades.",
+      "badge": "Perfecto para 2-5 personas"
+    }
+  },
+  "hero": {
+    "badge": "Apartamento Premium en Santa Marta",
+    "title": "Magic Place 809",
+    "subtitle": "Apartamento Premium Santa Marta",
+    "features": {
+      "oceanView": "Vista al mar",
+      "pool": "Piscina infinita",
+      "gym": "Gym equipado"
+    },
+    "location": "A 5 min del Aeropuerto Simón Bolívar | Bello Horizonte",
+    "cta": {
+      "bookNow": "Reservar Ahora",
+      "viewGallery": "Ver Galería"
+    },
+    "bestPrice": "Mejor Precio Garantizado - Reserva Directa"
+  },
+  "gallery": {
+    "subtitle": "Conoce el Espacio",
+    "title": "Galería de Magic Place 809",
+    "description": "Descubre cada rincón de nuestro apartamento premium con vista al mar, piscina infinity y todas las comodidades que necesitas para una estadía perfecta.",
+    "videoCaption": "Tour completo del apartamento y sus instalaciones",
+    "categories": {
+      "exterior": "Exterior",
+      "pool": "Piscina",
+      "kitchen": "Cocina",
+      "bedroom": "Habitación",
+      "gym": "Gym",
+      "terrace": "Terraza",
+      "beach": "Playa",
+      "interior": "Interior",
+      "view": "Vista",
+      "lobby": "Lobby"
+    }
+  },
+  "amenities": {
+    "subtitle": "Todo Incluido",
+    "title": "Amenidades Premium",
+    "description": "Todo lo que necesitas para una estadía cómoda y relajante. Disfruta de instalaciones de primera clase con vista al mar.",
+    "items": {
+      "wifi": {
+        "title": "WiFi Alta Velocidad",
+        "description": "Conexión 100MB simétrica ideal para trabajo remoto y streaming"
+      },
+      "pool": {
+        "title": "Piscina Infinity",
+        "description": "Piscina rooftop con vista panorámica al mar Caribe"
+      },
+      "gym": {
+        "title": "Gym Equipado",
+        "description": "Gimnasio completo con vista a la piscina y al mar"
+      },
+      "ac": {
+        "title": "Aire Acondicionado",
+        "description": "AC split en todas las habitaciones para tu confort"
+      },
+      "kitchen": {
+        "title": "Cocina Full",
+        "description": "Cocina equipada con nevera, horno, cafetera y utensilios"
+      },
+      "parking": {
+        "title": "Parqueadero",
+        "description": "Parqueadero privado disponible para huéspedes"
+      },
+      "security": {
+        "title": "Seguridad 24h",
+        "description": "Portería y vigilancia las 24 horas del día"
+      },
+      "tv": {
+        "title": "Smart TV",
+        "description": "Televisor inteligente con Netflix y apps de streaming"
+      }
+    },
+    "premium": {
+      "title": "Experiencia Premium",
+      "subtitle": "Todo incluido para tu máximo confort",
+      "equipped": "Equipado",
+      "security": "Seguridad",
+      "rating": "Calificación"
+    }
+  },
+  "location": {
+    "subtitle": "Ubicación Estratégica",
+    "title": "Bello Horizonte",
+    "description": "La zona más exclusiva de Santa Marta. A solo 5 minutos del aeropuerto y cerca de todo lo que necesitas.",
+    "address": {
+      "building": "Edificio Salinas del Mar",
+      "city": "Bello Horizonte, Santa Marta, Magdalena, Colombia",
+      "badge": "A 5 min del Aeropuerto"
+    },
+    "nearby": {
+      "title": "Lugares Cercanos",
+      "airport": {
+        "name": "Aeropuerto Simón Bolívar",
+        "description": "Vuelos nacionales e internacionales",
+        "distance": "5 min"
+      },
+      "beach": {
+        "name": "Playa Salguero",
+        "description": "Caminando desde el edificio",
+        "distance": "3 min"
+      },
+      "mall": {
+        "name": "Zazue Plaza",
+        "description": "Centro comercial y restaurantes",
+        "distance": "8 min"
+      },
+      "tayrona": {
+        "name": "Parque Tayrona",
+        "description": "Uno de los parques más hermosos",
+        "distance": "40 min"
+      }
+    },
+    "transport": {
+      "title": "¿Cómo llegar?",
+      "taxi": "Desde el aeropuerto: Taxi oficial $15,000-20,000 COP",
+      "uber": "Uber/Didi: $12,000-15,000 COP (5 min)",
+      "address": "Dirección: Edificio Salinas del Mar, Bello Horizonte"
+    }
+  },
+  "booking": {
+    "subtitle": "Reserva Directa",
+    "title": "Reserva tu Estadía",
+    "description": "Reserva directamente y ahorra hasta un 15% en comisiones. Atención personalizada con Mónica.",
+    "bestPrice": "Mejor Precio Garantizado - Reserva Directa",
+    "form": {
+      "checkIn": "Fecha de Entrada",
+      "checkOut": "Fecha de Salida",
+      "guests": "Huéspedes",
+      "selectDate": "Seleccionar fecha",
+      "guest": "huésped",
+      "guests_plural": "huéspedes"
+    },
+    "buttons": {
+      "whatsapp": "Reservar por WhatsApp",
+      "airbnb": "Ver en Airbnb"
+    },
+    "benefits": {
+      "save": "Ahorra 10-15%",
+      "personalized": "Atención personalizada",
+      "flexible": "Cancelación flexible"
+    },
+    "contact": "¿Prefieres llamar? Contacta a",
+    "monica": "Mónica",
+    "phone": "al +57 316 0489297"
+  },
+  "blog": {
+    "subtitle": "Blog & Guías",
+    "title": "Consejos para tu Viaje",
+    "description": "Guías locales, tips de viaje y todo lo que necesitas saber para disfrutar al máximo tu estadía en Santa Marta.",
+    "readMore": "Leer más",
+    "readTime": "min de lectura",
+    "categories": {
+      "guide": "Guía",
+      "tips": "Consejos",
+      "location": "Ubicación",
+      "beaches": "Playas",
+      "activities": "Actividades"
+    },
+    "articles": {
+      "article1": {
+        "title": "Apartamentos en Santa Marta: Guía Definitiva para Hospedarte en Bello Horizonte 2024",
+        "excerpt": "Descubre por qué Bello Horizonte es la zona preferida por viajeros experimentados. Guía completa con precios, características y consejos."
+      },
+      "article2": {
+        "title": "Reservar Airbnb Santa Marta vs Directo: 5 Razones para Elegir Magic Place 809",
+        "excerpt": "Ahorra hasta 15% reservando directo. Conoce las 5 razones por las que la reserva directa es mejor que Airbnb."
+      },
+      "article3": {
+        "title": "Aeropuerto Santa Marta: Dónde Hospedarte a Menos de 10 Minutos",
+        "excerpt": "Llegas tarde o tienes vuelo temprano? Descubre por qué Bello Horizonte es la mejor opción cerca del aeropuerto."
+      },
+      "article4": {
+        "title": "Playa Salguero Santa Marta: La Mejor Zona para Alquilar Apartamento",
+        "excerpt": "La playa favorita de los locales. Aguas tranquilas, arena fina y apartamentos frente al mar. Conoce por qué es la mejor zona."
+      },
+      "article5": {
+        "title": "10 Cosas que Hacer Cerca de Magic Place 809 en Bello Horizonte",
+        "excerpt": "Desde amaneceres en la playa hasta restaurantes gourmet. 10 planes imperdibles cerca de tu apartamento."
+      },
+      "article6": {
+        "title": "Apartamentos Amoblados Santa Marta: Todo lo que Debes Saber Antes de Alquilar",
+        "excerpt": "Guía completa para nómadas digitales y estancias largas. Contratos, precios y zonas seguras en Santa Marta."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para reservar?",
+      "description": "Contacta directamente a Mónica para obtener el mejor precio garantizado",
+      "button": "Contactar por WhatsApp"
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "¿Listo para vivir la experiencia Magic Place?",
+      "description": "Reserva directamente y obtén el mejor precio garantizado"
+    },
+    "buttons": {
+      "whatsapp": "WhatsApp",
+      "airbnb": "Ver en Airbnb"
+    },
+    "description": "Apartamento premium en Bello Horizonte, Santa Marta. Vista al mar, piscina infinity, gym equipado y todas las comodidades para una estadía inolvidable.",
+    "contact": {
+      "label": "Contacto Mónica",
+      "locationLabel": "Ubicación"
+    },
+    "navigation": "Navegación",
+    "information": "Información",
+    "links": {
+      "cancellation": "Políticas de Cancelación",
+      "terms": "Términos y Condiciones",
+      "faq": "Preguntas Frecuentes"
+    },
+    "copyright": "© {{year}} Magic Place 809. Todos los derechos reservados."
+  },
+  "language": {
+    "title": "Idioma",
+    "es": "Español",
+    "en": "English",
+    "pt": "Português"
+  },
+  "whatsapp": {
+    "tooltip": "¿Tienes dudas? Escríbenos",
+    "message": "Hola! Me interesa reservar Magic Place 809.\n\nFechas:\nEntrada: {{checkIn}}\nSalida: {{checkOut}}\nHuéspedes: {{guests}}\n\n¿Está disponible?"
+  },
+  "common": {
+    "close": "Cerrar",
+    "loading": "Cargando...",
+    "scrollDown": "Desplazar hacia abajo"
+  }
+}
