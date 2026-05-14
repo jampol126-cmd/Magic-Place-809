@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 @layer base {
   :root {
@@ -51,10 +51,26 @@
   }
   html {
     scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: clip;
   }
   body {
     @apply bg-background text-foreground font-sans antialiased;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    width: 100%;
+    min-width: 320px;
+    overflow-x: clip;
+    overscroll-behavior-x: none;
+  }
+  #root {
+    min-height: 100vh;
+    overflow-x: clip;
+  }
+  img,
+  video,
+  canvas,
+  svg {
+    max-width: 100%;
   }
 }
 
@@ -69,6 +85,14 @@
   .fade-in-up.visible {
     opacity: 1;
     transform: translateY(0);
+  }
+
+  @media (max-width: 767px), (prefers-reduced-motion: reduce) {
+    .fade-in-up {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
   }
   
   /* Stagger delays */

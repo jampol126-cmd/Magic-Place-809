@@ -63,12 +63,12 @@ export function Location() {
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden h-full">
               <div className="aspect-[4/3] lg:aspect-auto lg:h-full min-h-[400px]">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.638599488!2d-74.2328!3d11.1425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef4f5a5c5c5c5c5%3A0x5c5c5c5c5c5c5c5c!2sBello%20Horizonte%2C%20Santa%20Marta%2C%20Magdalena%2C%20Colombia!5e0!3m2!1ses!2sus!4v1234567890"
+                  src="https://www.google.com/maps?q=Edificio%20Salinas%20del%20Mar%2C%20Bello%20Horizonte%2C%20Santa%20Marta%2C%20Magdalena%2C%20Colombia&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0, minHeight: '400px' }}
                   allowFullScreen
-                  loading="lazy"
+                  loading="eager"
                   referrerPolicy="no-referrer-when-downgrade"
                   title="Magic Place 809 Location"
                   className="w-full h-full"

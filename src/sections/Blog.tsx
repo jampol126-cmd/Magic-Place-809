@@ -1,19 +1,16 @@
-import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import { Button } from '@/components/ui/button';
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
-import { Calendar, Clock, ArrowRight, X, Phone } from 'lucide-react';
+import { Clock, ArrowRight } from 'lucide-react';
 
 interface BlogPost {
   id: number;
   title: string;
   excerpt: string;
-  content: React.ReactNode;
   image: string;
   category: string;
   readTime: string;
   date: string;
+  slug: string;
 }
 
 const getBlogPosts = (t: any): BlogPost[] => [
@@ -25,7 +22,7 @@ const getBlogPosts = (t: any): BlogPost[] => [
     category: t('blog.categories.guide'),
     readTime: '8',
     date: '2024-12-15',
-    content: null,
+    slug: '/blog/apartamentos-santa-marta-bello-horizonte/',
   },
   {
     id: 2,
@@ -35,7 +32,7 @@ const getBlogPosts = (t: any): BlogPost[] => [
     category: t('blog.categories.tips'),
     readTime: '6',
     date: '2024-12-10',
-    content: null,
+    slug: '/blog/reservar-airbnb-santa-marta-vs-directo/',
   },
   {
     id: 3,
@@ -45,7 +42,7 @@ const getBlogPosts = (t: any): BlogPost[] => [
     category: t('blog.categories.location'),
     readTime: '5',
     date: '2024-12-05',
-    content: null,
+    slug: '/blog/aeropuerto-santa-marta-donde-hospedarte/',
   },
   {
     id: 4,
@@ -55,7 +52,7 @@ const getBlogPosts = (t: any): BlogPost[] => [
     category: t('blog.categories.beaches'),
     readTime: '7',
     date: '2024-11-28',
-    content: null,
+    slug: '/blog/playa-salguero-santa-marta/',
   },
   {
     id: 5,
@@ -65,7 +62,7 @@ const getBlogPosts = (t: any): BlogPost[] => [
     category: t('blog.categories.activities'),
     readTime: '9',
     date: '2024-11-20',
-    content: null,
+    slug: '/blog/que-hacer-bello-horizonte/',
   },
   {
     id: 6,
@@ -75,25 +72,14 @@ const getBlogPosts = (t: any): BlogPost[] => [
     category: t('blog.categories.guide'),
     readTime: '10',
     date: '2024-11-15',
-    content: null,
+    slug: '/blog/apartamentos-amoblados-santa-marta/',
   },
 ];
 
 export function Blog() {
   const { t } = useTranslation();
-  const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null);
   const { ref, isVisible } = useScrollAnimation();
   const blogPosts = getBlogPosts(t);
-
-  const openPost = (post: BlogPost) => {
-    setSelectedPost(post);
-    document.body.style.overflow = 'hidden';
-  };
-
-  const closePost = () => {
-    setSelectedPost(null);
-    document.body.style.overflow = 'auto';
-  };
 
   return (
     <section id="blog" className="py-20 lg:py-28 bg-slate-50">
@@ -133,7 +119,7 @@ export function Blog() {
                   src={post.image}
                   alt={post.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  loading="lazy"
+                  loading="eager"
                 />
               </div>
 
@@ -156,84 +142,19 @@ export function Blog() {
                   {post.excerpt}
                 </p>
 
-                <button
-                  onClick={() => openPost(post)}
+                <a
+                  href={post.slug}
                   className="inline-flex items-center text-ocean-500 font-semibold text-sm hover:text-ocean-600 transition-colors"
                 >
                   {t('blog.readMore')}
                   <ArrowRight className="w-4 h-4 ml-1 transition-transform group-hover:translate-x-1" />
-                </button>
+                </a>
               </div>
             </article>
           ))}
         </div>
       </div>
 
-      {/* Article Modal */}
-      <Dialog open={selectedPost !== null} onOpenChange={closePost}>
-        <DialogContent className="max-w-4xl w-[95vw] max-h-[90vh] overflow-y-auto p-0">
-          {selectedPost && (
-            <>
-              <div className="relative aspect-video">
-                <img
-                  src={selectedPost.image}
-                  alt={selectedPost.title}
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                <div className="absolute bottom-4 left-6 right-6">
-                  <span className="bg-ocean-500 text-white px-2 py-1 rounded text-xs font-medium mb-2 inline-block">
-                    {selectedPost.category}
-                  </span>
-                  <DialogHeader>
-                    <DialogTitle className="text-white text-xl lg:text-2xl font-bold">
-                      {selectedPost.title}
-                    </DialogTitle>
-                  </DialogHeader>
-                </div>
-                <button
-                  onClick={closePost}
-                  className="absolute top-4 right-4 p-2 bg-white/20 backdrop-blur-sm rounded-full hover:bg-white/30 transition-colors"
-                >
-                  <X className="w-5 h-5 text-white" />
-                </button>
-              </div>
-
-              <div className="p-6 lg:p-8">
-                <div className="flex items-center gap-4 mb-6 text-sm text-slate-500">
-                  <span className="flex items-center gap-1">
-                    <Calendar className="w-4 h-4" />
-                    {selectedPost.date}
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <Clock className="w-4 h-4" />
-                    {selectedPost.readTime} {t('blog.readTime')}
-                  </span>
-                </div>
-
-                <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                  {selectedPost.excerpt}
-                </p>
-
-                <div className="bg-gradient-to-r from-ocean-500 to-ocean-600 rounded-xl p-6 text-white text-center mt-8">
-                  <h4 className="text-xl font-bold mb-2">{t('blog.cta.title')}</h4>
-                  <p className="text-white/80 mb-4">{t('blog.cta.description')}</p>
-                  <a
-                    href="https://wa.me/573160489297"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button className="bg-white text-ocean-600 hover:bg-white/90">
-                      <Phone className="w-4 h-4 mr-2" />
-                      {t('blog.cta.button')}
-                    </Button>
-                  </a>
-                </div>
-              </div>
-            </>
-          )}
-        </DialogContent>
-      </Dialog>
     </section>
   );
 }
